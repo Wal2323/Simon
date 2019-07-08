@@ -33,21 +33,26 @@ body {
 
 .red {
   background-color: red;
+  opacity: 0.5;
 }
 
 .green {
   background-color: green;
+  opacity: 0.5;
 }
 
 .blue {
   background-color: blue;
+  opacity: 0.5;
 }
 
 .yellow {
   background-color: yellow;
+  opacity: 0.5;
 }
 
 .pressed {
   box-shadow: 0 0 20px white;
-  background-color: grey;
+  /* background-color: grey; */
+  opacity: 1;
 }
