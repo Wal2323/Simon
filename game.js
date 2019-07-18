@@ -10,13 +10,13 @@ let level = 0;
 
 //Start game with keyboard press
 
-$(document).on('keydown touchstart', (function() {
+$(document).keydown(function() {
   if (!started){
     $('#level-title').text('Level ' + level);
     nextSequence();
     started = true;
   }
-}))
+})
 
 //colour sequence generator.  Adds colour to game pattern array, calls sound, and increments level number and h1 text
 
