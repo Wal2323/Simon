@@ -16,7 +16,7 @@ $(document).on('keydown touchstart', (function() {
     nextSequence();
     started = true;
   }
-})
+}))
 
 //colour sequence generator.  Adds colour to game pattern array, calls sound, and increments level number and h1 text
 
