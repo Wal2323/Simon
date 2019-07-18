@@ -10,7 +10,7 @@ let level = 0;
 
 //Start game with keyboard press
 
-$(document).on('touchstart', (function() {
+$(document).on('keydown touchstart', (function() {
   if (!started){
     $('#level-title').text('Level ' + level);
     nextSequence();
